@@ -8,9 +8,14 @@ eureka:
 ---
 spring:
   profiles: subject
-words: Augusto,Raul
+words: Nombre1,Nombre2,Nombre3,Nombre4,Nombre5
   
 ---
 spring:
   profiles: verb
-words: Huapaya,Romero
+words: Apellido1,Apellido2,Apellido3,Apellido4,Apellido5
+
+---
+spring:
+  profiles: name
+words: 00000001,00000002,00000003,00000004,00000005'
