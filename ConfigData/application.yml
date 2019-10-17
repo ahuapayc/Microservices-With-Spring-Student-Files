@@ -18,4 +18,4 @@ words: Apellido1,Apellido2,Apellido3,Apellido4,Apellido5
 ---
 spring:
   profiles: name
-words: 00000001,00000002,00000003,00000004,00000005'
+words: 00000001,00000002,00000003,00000004,00000005
