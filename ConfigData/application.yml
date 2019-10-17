@@ -7,15 +7,15 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 ---
 spring:
-  profiles: subject
+  profiles: nombres
 words: Nombre1,Nombre2,Nombre3,Nombre4,Nombre5
   
 ---
 spring:
-  profiles: verb
+  profiles: apellidos
 words: Apellido1,Apellido2,Apellido3,Apellido4,Apellido5
 
 ---
 spring:
-  profiles: name
+  profiles: dni
 words: 00000001,00000002,00000003,00000004,00000005
