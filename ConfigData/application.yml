@@ -5,9 +5,7 @@ eureka:
     serviceUrl:
       #defaultZone: http://localhost:8010/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
       defaultZone: http://localhost:8010/eureka/
----
-spring:
-  mensaje: Se encontró la lista de personas exitosamente
+    mensaje: Se encontró la lista de personas exitosamente
 
 ---
 spring:
