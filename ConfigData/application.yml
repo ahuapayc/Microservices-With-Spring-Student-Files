@@ -5,7 +5,7 @@ eureka:
     serviceUrl:
       #defaultZone: http://localhost:8010/eureka/,http://localhost:8012/eureka/,http://localhost:8013/eureka/
       defaultZone: http://localhost:8010/eureka/
-    mensaje: Se encontró la lista de personas exitosamente
+    
 
 ---
 spring:
@@ -36,3 +36,6 @@ words: boat,book,vote,seat,backpack,partition,groundhog
 spring:
   profiles: name
 words: Augusto,Huapaya
+
+---
+mensaje: Se encontró la lista de personas exitosamente
