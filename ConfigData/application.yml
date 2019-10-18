@@ -7,6 +7,10 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 ---
 spring:
+  mensaje: Se encontró la lista de personas exitosamente
+
+---
+spring:
   profiles: subject
 words: I,You,He,She,It,We,They
   
