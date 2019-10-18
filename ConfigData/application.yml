@@ -7,15 +7,30 @@ eureka:
       defaultZone: http://localhost:8010/eureka/
 ---
 spring:
-  profiles: nombres
-words: Nombre1,Nombre2,Nombre3,Nombre4,Nombre5
+  profiles: subject
+words: I,You,He,She,It,We,They
   
 ---
 spring:
-  profiles: apellidos
-words: Apellido1,Apellido2,Apellido3,Apellido4,Apellido5
+  profiles: verb
+words: ran,knew,had,saw,bought
 
 ---
 spring:
-  profiles: dni
-words: 00000001,00000002,00000003,00000004,00000005
+  profiles: article
+words: a,the
+
+---
+spring:
+  profiles: adjective
+words: reasonable,leaky,suspicious,ordinary,unlikely
+
+---
+spring:
+  profiles: noun
+words: boat,book,vote,seat,backpack,partition,groundhog
+  
+---
+spring:
+  profiles: name
+words: Augusto,Huapaya
